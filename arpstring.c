@@ -69,7 +69,7 @@ int main(){
   //Demonstrating the functions
     printf("Demonstrating functions from string.h\n");
     //strcopy
-    char s_one[20];
+    char s_one[256];
     char s_two[] = "I am a string.";
     strcpy(s_one,s_two);
     printf("%s\n\n",s_one);
